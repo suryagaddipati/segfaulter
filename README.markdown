@@ -1,5 +1,6 @@
 # Segfaulter
 
     $ gem install segfaulter    
-    $ irb -rxpather
+    $ irb -rsegfaulter
     >> Segfaulter.new.segfault
+    BOOM!! Segfault
