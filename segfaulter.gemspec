@@ -1,6 +1,6 @@
 spec = Gem::Specification.new do |s|
   s.name              = "segfaulter"
-  s.version           = "0.0.1"
+  s.version           = "0.0.2"
   s.platform          = Gem::Platform::RUBY
   s.authors           = ["Surya Gaddipati"]
   s.email             = ["surya.gaddipati@gmail.com"]

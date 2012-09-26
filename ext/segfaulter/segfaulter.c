@@ -1,4 +1,4 @@
-#include <ruby/ruby.h>
+#include "ruby.h"
 
 static VALUE t_segfault(VALUE self){
   VALUE arr[1];
