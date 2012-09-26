@@ -1,0 +1,7 @@
+ext/xpather/Makefile
+ext/xpather/mkmf.log
+ext/xpather/xpather.bundle
+ext/xpather/xpather.o
+*.gem
+lib/xpather
+ext/xpather/xpather.so

@@ -1,0 +1,60 @@
+have_library: checking for main() in -lxml2... -------------------- yes
+
+"/usr/bin/gcc-4.2 -o conftest -I/opt/local/include -I. -I/Users/sgaddipati/.rvm/rubies/ree-1.8.7-2011.12/lib/ruby/1.8/i686-darwin10.8.0 -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -g -O2  -pipe -fno-common   conftest.c  -L. -L/Users/sgaddipati/.rvm/rubies/ree-1.8.7-2011.12/lib -L.      -lruby-static -lxml2  -L/opt/local/lib -ldl -lobjc  "
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+--------------------
+
+find_header: checking for libxml/tree.h in /usr/include/libxml2,/usr/local/include/libxml2... -------------------- yes
+
+"/usr/bin/gcc-4.2 -E -I/opt/local/include -I. -I/Users/sgaddipati/.rvm/rubies/ree-1.8.7-2011.12/lib/ruby/1.8/i686-darwin10.8.0 -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -g -O2  -pipe -fno-common    conftest.c -o conftest.i"
+conftest.c:1:25: error: libxml/tree.h: No such file or directory
+checked program was:
+/* begin */
+1: #include <libxml/tree.h>
+/* end */
+
+"/usr/bin/gcc-4.2 -E -I/opt/local/include -I. -I/Users/sgaddipati/.rvm/rubies/ree-1.8.7-2011.12/lib/ruby/1.8/i686-darwin10.8.0 -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -g -O2  -pipe -fno-common   -I/usr/include/libxml2 conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <libxml/tree.h>
+/* end */
+
+--------------------
+
+find_header: checking for libxml/parser.h in /usr/include/libxml2,/usr/local/include/libxml2... -------------------- yes
+
+"/usr/bin/gcc-4.2 -E -I/opt/local/include -I. -I/Users/sgaddipati/.rvm/rubies/ree-1.8.7-2011.12/lib/ruby/1.8/i686-darwin10.8.0 -I. -I/usr/include/libxml2  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -g -O2  -pipe -fno-common    conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <libxml/parser.h>
+/* end */
+
+--------------------
+
+find_header: checking for libxml/xpath.h in /usr/include/libxml2,/usr/local/include/libxml2... -------------------- yes
+
+"/usr/bin/gcc-4.2 -E -I/opt/local/include -I. -I/Users/sgaddipati/.rvm/rubies/ree-1.8.7-2011.12/lib/ruby/1.8/i686-darwin10.8.0 -I. -I/usr/include/libxml2  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -g -O2  -pipe -fno-common    conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <libxml/xpath.h>
+/* end */
+
+--------------------
+
+find_header: checking for libxml/xpathInternals.h in /usr/include/libxml2,/usr/local/include/libxml2... -------------------- yes
+
+"/usr/bin/gcc-4.2 -E -I/opt/local/include -I. -I/Users/sgaddipati/.rvm/rubies/ree-1.8.7-2011.12/lib/ruby/1.8/i686-darwin10.8.0 -I. -I/usr/include/libxml2  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -g -O2  -pipe -fno-common    conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <libxml/xpathInternals.h>
+/* end */
+
+--------------------
+
